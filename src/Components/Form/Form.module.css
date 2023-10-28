@@ -2,8 +2,41 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    height: auto;
+    width: 90%;
 }
 .top_btn{
     display: flex;
     gap: 32px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.form > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form > form > input{
+    width: 100%;
+    padding: 8px 2px;
+}
+.form > form > textarea{
+    width: 100%;
+    padding: 8px 2px;
+}
+.form > form > input::placeholder{
+    font-weight: 500;
+    font-size: 15px;
+}
+.form > form > textarea::placeholder{
+    font-weight: 500;
+    font-size: 17px;
 }
